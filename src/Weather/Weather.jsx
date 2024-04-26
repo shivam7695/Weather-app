@@ -35,7 +35,7 @@ const Weather = () => {
          <div className='card'>
       <div className='search'>
         <input className='city' type="text" placeholder='Enter City' />
-       <button className='btn' onClick={()=>{search()}}><img src="https://imgs.search.brave.com/SQqqO56F-pINPeieprMA25zpLH5SjTKk8IZfRDRvBzE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZnJlZWltYWdl/cy5jb20vaW1hZ2Uv/cHJldmlld3MvNjAy/L3B1cnBsZS1zZWFy/Y2gtaWNvbi01Njkz/ODcxLnBuZz9mbXQ" alt="" />0</button>
+       <button className='btn' onClick={()=>{search()}}><img src="" alt="" /><i class="fa-solid fa-magnifying-glass"></i></button>
       </div>
       <div className='weather-image'>
             <img src="https://imgs.search.brave.com/pv7ZTaaQoL4vtAmzNBFbNSFZdWh7BxgzJK177IVir7Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8zMzEyLzMzMTI4/MjIucG5n" alt="" />
