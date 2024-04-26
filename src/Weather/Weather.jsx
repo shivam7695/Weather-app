@@ -38,7 +38,7 @@ const Weather = () => {
        <button className='btn' onClick={()=>{search()}}><img src="search.png" alt="" /></button>
       </div>
       <div className='weather-image'>
-            <img src="cloud.png" alt="" />
+            <img src="https://imgs.search.brave.com/pv7ZTaaQoL4vtAmzNBFbNSFZdWh7BxgzJK177IVir7Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8zMzEyLzMzMTI4/MjIucG5n" alt="" />
       </div>
       <div className="weather-temp">31°C</div>
       <div className="weather-location">Pune</div>
