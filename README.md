@@ -1,8 +1,29 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple weather dashboard application built with React.js. It allows users to search for current weather information by city name and displays details such as temperature, humidity, and wind speed.
 
-Currently, two official plugins are available:
+Features
+Search function to find current weather information by city name.
+Display of current weather details including temperature, humidity, and wind speed.
+Responsive design suitable for both desktop and mobile views.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Installation
+Available Scripts
+In the project directory, you can run:
+
+npm create vite@latest
+for creating the react APP
+
+npm install
+Instal All dependencies in this project
+
+npm run dev
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in the browser.
+
+project will submiited to github repositary
+and after the project depoly on vercel app
+
+Link
+
+Create React App: https://create-react-app.dev/
