@@ -35,23 +35,23 @@ const Weather = () => {
          <div className='card'>
       <div className='search'>
         <input className='city' type="text" placeholder='Enter City' />
-       <button className='btn' onClick={()=>{search()}}><img src="search.png" alt="" /></button>
+       <button className='btn' onClick={()=>{search()}}><img src="https://imgs.search.brave.com/X_uwqfioeJlBGvA4Lo5OrBGlXjZYo3rKLDf5zaXVuQk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzY1Lzk0LzY3/LzM2MF9GXzY2NTk0/Njc5NV9PNGxkYTU4/QW16enVGZVVkVzNQ/UGltMzFWdlhWWHUz/bC5qcGc" alt="" /></button>
       </div>
       <div className='weather-image'>
-            <img src="cloud.png" alt="" />
+            <img src="https://imgs.search.brave.com/pv7ZTaaQoL4vtAmzNBFbNSFZdWh7BxgzJK177IVir7Y/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4t/aWNvbnMtcG5nLmZy/ZWVwaWsuY29tLzI1/Ni8zMzEyLzMzMTI4/MjIucG5n" alt="" />
       </div>
       <div className="weather-temp">31°C</div>
       <div className="weather-location">Pune</div>
       <data className="containers">
         <div className="element">
-          <img src="humidity.png" alt="" />
+          <img src="https://imgs.search.brave.com/gk097VKD7Iv4mpfg9GUgm9UlraiNy-C2c_73M8SjgqA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9saDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tLzdO/TkF2MmpiU1hYTG03/aFppNEZVRU1lUTZU/M211WDluQS1Zd2xy/bE5WQk80dU5HdVIx/a0FSOXhCUllvWjBJ/ek55bnc9dzMwMA.jpeg" alt="" />
           <div className="data">
             <div className="humidity">42%</div>
             <div className="text">Humidity</div>
           </div>
         </div>
         <div className="element">
-          <img src="wind.png" alt="" />
+          <img src="https://imgs.search.brave.com/YQH2S0Fhduwux0O9BCxxjlMwaTsw8etKSfYUxYQ0IjY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9saDMu/Z29vZ2xldXNlcmNv/bnRlbnQuY29tL0o1/RXdaTDRPZzhQckNP/bDk5cDJIM2k3QmIx/bVhaWmtuVVo3TnY4/dDhsVkNXVTVnZF9S/TXU0ZkpqMS1yOFgx/cWJvXzg9dzMwMA.jpeg" alt="" />
           <div className="data">
             <div className="wind">3.19km/h</div>
             <div className="text">Wind Speed</div>
